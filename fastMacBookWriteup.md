@@ -114,7 +114,8 @@ If it should ask about restarting services, just press enter AND maybee follow i
 ### Automatic way (recommendet)
 Open a terminal and execute the following commands:
 ```
-curl https://raw.githubusercontent.com/MakerSpace-GYMNBB/IMSI-catcher_docs/main/install.sh --output install.sh
+sudo apt install wget -y
+wget https://raw.githubusercontent.com/MakerSpace-GYMNBB/IMSI-catcher_docs/main/install.sh
 sudo chmod u+rwx install.sh
 ./install.sh
 ```
